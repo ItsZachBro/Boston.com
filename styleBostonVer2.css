@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+header{
+    
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    background-image: url(images/word-boston-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100px;
+    width: 300px;
+    padding-right: 30%;
+    
+
+}
+#headerNav {
+    display: flex;
+    justify-content:space-between;
+    list-style-type:none;
+    width: 1000px;
+    padding-top: 3%;
+    color: white;
+    
+    
+    
+}
+
+h1{
+    padding-top:3%;
+}
+.page1{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    padding-right: 1%;
+}
+.mainStory{
+    width: 100%;
+    height:60%;  
+}
+.patriotPic{
+    background-image: url(images/Belichick-2000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     width: 100%;
+     height: 80%;
+
+}
+
+.subStoryies{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.middleSec{
+    width: 25%;
+    height: 100%;
+    flex: flex;
+}
+.middleSec  h2{
+    color: red;
+}
+.middleSec p{
+    padding: 1%;
+}
+
+
+aside{
+    background-image: url(images/Mercy-for-Animals-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+.rightside > h2{
+    margin-left: 4%;
+}
+
+ol li{
+    margin-bottom: 7%;
+}
+.beanSec{
+    width: 50%;
+    padding-right: 1%; 
+}
+.beanPic{
+    background-image: url(images/ll_bean_lineup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+.chanceSec{
+    width: 50%;
+    padding-left: 1%;
+}
+.chancePic{
+    background-image: url(images/Chance-the-Rapper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+.bottomHalfOfPage{
+    height:45vh;
+
+  
+}
+.top{
+    display: flex;
+}
+.top span{
+    padding-top: 28px;
+}
+.truckPicSec{
+    display: inline-block;
+    flex-direction: column;
+}
+.PicOfTruck{
+    background-image: url(images/ford-f150-5.0-engine-problems-thumbnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+.last_list{
+    float: right;
+    margin-right: 49%;
+
+}
+.last_list li{
+    margin-bottom: 7%;
+    list-style-type:none;   
+}
+
+.twitterLogo{
+    background-image: url(images/twitter-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+    
+.fbPic{
+    background-image: url(images/facebook-logo-in-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+.questionPic{
+    background-image: url(images/png-transparent-question-mark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+}
+
+footer{
+    display: flex;
+    
+    justify-content:space-around;
+    list-style-type:none
+}
+footer > section{
+   
+    flex-direction: row;
+    
+
+}
+
+#socialLinks{
+    list-style-type:none;
+    display: flex;
+    padding-right: 1400px;   
+}
+
+
+/*
+body > footer > section:nth-child(1){
+    padding-right: 1000px;
